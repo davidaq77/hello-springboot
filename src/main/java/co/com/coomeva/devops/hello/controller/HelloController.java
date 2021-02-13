@@ -16,7 +16,7 @@ public class HelloController {
 	
 	@GetMapping("/{name}")
 	public String index(@PathVariable("name") String name) {
-		return "Hola "+name+" desde Spring Boot Y Azure Devops";
+		return "Hola "+name+" desde Spring Boot Y Azure Cloud";
 	}
 
 }
